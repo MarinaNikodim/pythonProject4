@@ -7,7 +7,7 @@ def f_divide(first, second):
         return result_
 
 
-result_ = f_divide(10, 2)
+result_ = f_divide(100, 2)
 res_ = f_divide(8, 0)
 print(result_)
 print(res_)
