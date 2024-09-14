@@ -13,3 +13,14 @@ result1 = t_divide(48, 0)
 print(result)
 print(result1)
 
+
+# def main():
+#     g = 5**5
+#     print(g)
+#
+#
+# print(__name__)
+# if __name__ == '__main__':
+#     main()
+#
+#     print("Good weather")
