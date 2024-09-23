@@ -1,7 +1,10 @@
-def test_function(x):
-    def inner_function(y):
-        inner_function(y)
+def test_function():
+    def inner_function():
+        print('Я в области видимости функции test_function')
+    inner_function()
 
 
-y = "Я в области видимости функции test_function"
-print(y)
+test_function()
+
+inner_function() # при вызове внутренней функии выходит ошибка, т.к. функция не определена в глобальном пространстве
+
